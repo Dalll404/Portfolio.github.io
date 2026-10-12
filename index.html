@@ -7,6 +7,7 @@
       name="description"
       content="Portofolio Dall — kumpulan proyek web dan catatan seputar teknologi."
     />
+    <meta name="theme-color" content="#fdfcf7" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
@@ -32,6 +33,7 @@
     <!-- Navbar menggunakan komponen Bootstrap 5.3 -->
     <nav
       class="navbar navbar-expand-lg sticky-top shadow-sm bg-body-tertiary px-lg-5"
+      aria-label="Navigasi utama"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#home">Dall<span>.</span></a>
@@ -445,7 +447,8 @@
         </div>
         <hr class="border-secondary my-4" />
         <div class="text-center text-secondary small">
-          &copy; 2026 Dall. Dibuat dengan Bootstrap 5.3.3.
+          &copy; <span id="current-year">2026</span> Dall. Dibuat dengan
+          Bootstrap 5.3.3.
         </div>
       </div>
     </footer>
@@ -455,5 +458,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js" defer></script>
   </body>
 </html>
